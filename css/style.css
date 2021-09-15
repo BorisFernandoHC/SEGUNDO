@@ -1,2 +1,57 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+     /* PRIMARY COLORS */
+    --Pale-blue:hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    /* NEUTRAL COLORS */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    /*FUNTE*/
+    font-family: 'Red Hat Display', sans-serif;
+    /* ANCOR COLOR */
+    --a-color:hsl(228, 45%, 44%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Pale-blue);
+}
+.payment-card{
+    /* centrear */
+    margin: 0 auto;
+    margin-top: 76px;
+    /* ANCHURA */
+    width: 85%;
+    overflow: hidden;
+    /* Para darle redondeo */
+    border-radius: 20px;
+    /* fondo blanco */
+    background-color: white;
+}
+.payment-card header img{
+    height: 148px;
+    width: 100%;
+}
+main{
+    text-align: center;
+}
+main h1{
+    font-weight: 900;
+}
+main p{
+    /* arriba derecha abajo izquierda */
+    margin: 0 24px 32px 24px ;
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    line-height: 24px;
+}
+.plan {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: var(--Very-pale-blue);
+    padding: 12px;
+    border-radius: 14px;
+    margin: 8px 24px 24px 24px;
+}
